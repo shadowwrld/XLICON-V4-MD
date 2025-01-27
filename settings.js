@@ -51,17 +51,16 @@ global.location = process.env.LOCATION || "Pakistan, Lahore, Sabzazar";
 //~~~~~~~~<Session and Bot Details>~~~~~~~~~~~~~\\
 global.SESSION_ID = process.env.SESSION_ID || '';
 
-global.botname = process.env.BOT_NAME || 'XLICON-V4-MD';
+global.botname = process.env.BOT_NAME || 'VAWULENCE-X';
 
-global.ownernumber = [process.env.OWNER_NUMBER || '923184070915'];
+global.ownernumber = [process.env.OWNER_NUMBER || '12393714075'];
 
-global.ownername = process.env.OWNER_NAME || '𝙎𝙖𝙡𝙢𝙖𝙣 𝘼𝙝𝙢𝙖𝙙';
+global.ownername = process.env.OWNER_NAME || 'JuiceTechInfo';
 
 
 //~~~~~~<Website and Social Links>~~~~~~~~~~\\
-global.websitex = process.env.WEBSITE_URL || "https://youtube.com/@s4salmanyt";
 
-global.wagc = process.env.WHATSAPP_CHANNEL || "https://whatsapp.com/channel/0029VaINgEZK0IBaK1nDtE3f";
+global.wagc = process.env.WHATSAPP_CHANNEL || "https://whatsapp.com/channel/0029Vay3ZG58fewnHqEw2h2c";
 
 
 //~~~~~~~~<Theme and Miscellaneous>~~~~~~~~~~\\
@@ -75,13 +74,13 @@ global.packname = process.env.PACK_NAME || "𝘼𝙃𝙃𝙈𝙄 𝙆𝙐𝙉";
 
 global.author = process.env.AUTHOR_NAME || "MΛDΣ BY 𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿";
 
-global.creator = process.env.CREATOR_NUMBER || "923184070915@s.whatsapp.net";
+global.creator = process.env.CREATOR_NUMBER || "12392714075@s.whatsapp.net";
 
 
 //~~~~~~~~~~~~~<Bot Settings>~~~~~~~~~~~~~~~\\
 global.xprefix = process.env.PREFIX || '.';
 
-global.premium = [process.env.PREMIUM_NUMBER || '923184070915'];
+global.premium = [process.env.PREMIUM_NUMBER || '12392714075'];
 
 global.typemenu = process.env.MENU_TYPE || 'v2';
 
@@ -94,7 +93,6 @@ global.antiforeignnumber = process.env.ANTIFOREIGN_COUNTRYCODE || '91';
 global.antidelete = process.env.ANTI_DELETE === 'true';
 
 
-global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆'];
 
 
 global.tempatDB = process.env.DB_FILE || 'database.json';
