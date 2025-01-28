@@ -15041,12 +15041,12 @@ break
             const me = m.sender
 			const xmenu_oh = `
 ╭─────═━┈┈━═──━┈⊷
-┋❍ *ʙᴏᴛ ɴᴀᴍᴇ* : ${botname}
+┋❍ *ʙᴏᴛ ɴᴀᴍᴇ* : *${botname}*
 ┋❍ *ᴏᴡɴᴇʀ ɴᴀᴍᴇ* : ${global.ownername}
 ┋❍ ${xliconytimewisher} 😄
 ╰─────═━┈┈━═──━┈⊷
 ${readmore}
-  ❍「 *ᴜꜱᴇʀ ɪɴꜰᴏ* 」❍
+   『 *ᴜꜱᴇʀ ɪɴꜰᴏ* 』
 ╭─────═━┈┈━═──━┈⊷
 ┊❍ *ɴᴀᴍᴇ* : ${m.pushName || 'No Name'}
 ┊❍ *ɴᴜᴍʙᴇʀ* : +${me.split('@')[0]}
@@ -15056,11 +15056,10 @@ ${readmore}
 ┊❍ *ᴍᴏɴᴇʏ* : ${global.db.users[m.sender]?.uang.toLocaleString('en-IN') || '0'}
 ╰─────═━┈┈━═──━┈⊷
 
-  ❍「 *ʙᴏᴛ ɪɴꜰᴏ* 」❍
+   『 *ʙᴏᴛ ɪɴꜰᴏ* 』
 ╭─────═━┈┈━═──━┈⊷                       
 ┊❍ *ꜱᴘᴇᴇᴅ* : ${latensie.toFixed(4)} ms
 ┊❍ *ʀᴜɴᴛɪᴍᴇ* : ${runtime(process.uptime())}
-┊❍ *ʜᴏꜱᴛ* : ${os.hostname()}
 ┊❍ *ᴘʟᴀᴛꜰᴏʀᴍ* : ${os.platform()}
 ┊❍ *ʙᴏᴛ ɴᴀᴍᴇ* : ${global.botname}
 ┊❍ *ᴏᴡɴᴇʀ* : @${ownernumber[0].split('@')[0]}
@@ -15071,36 +15070,36 @@ ${readmore}
 ┊❍ *ᴘʀᴇꜰɪx* : ${xprefix}
 ╰─────═━┈┈━═──━┈⊷
 
-  ❍「 *ᴛɪᴍᴇ ɪɴꜰᴏ* 」❍
+   『 *ᴛɪᴍᴇ ɪɴꜰᴏ* 』
 ╭─────═━┈┈━═──━┈⊷
 ┊❍ *ᴅᴀᴛᴇ* : ${xdate}
 ┊❍ *ᴅᴀʏ* : ${xday}
 ┊❍ *ᴛɪᴍᴇ* : ${xtime}
 ╰─────═━┈┈━═──━┈⊷
 
-  ❍「 *ᴍᴇɴᴜ* 」❍
-╭─────═━┈┈━═──━┈⊷
-┊◈ ${prefix}allmenu
-┊◈ ${prefix}searchmenu
-┊◈ ${prefix}*downloadmenu*
-┊◈ ${prefix}*gamemenu*
-┊◈ ${prefix}*funmenu*
-┊◈ ${prefix}*aimenu*
-┊◈ ${prefix}*groupmenu*
-┊◈ ${prefix}*ownermenu*
-┊◈ ${prefix}*convertmenu*
-┊◈ ${prefix}*listmenu*
-┊◈ ${prefix}*religionmenu*
-┊◈ ${prefix}*animemenu*
-┊◈ ${prefix}*randomphotomenu*
-┊◈ ${prefix}*randomvideomenu*
-┊◈ ${prefix}*stickermenu*
-┊◈ ${prefix}*databasemenu*
-┊◈ ${prefix}*storemenu*
-┊◈ ${prefix}*stalkermenu*
-┊◈ ${prefix}*othermenu*
-╰─────═━┈┈━═──━┈⊷
-> © *JuiceTechInfo*`
+   『 *ᴍᴇɴᴜ* 』
+━━━━━━━━━━━━━━━━━━━━━━━━━
+> ◈│▸ ${prefix}ᴀʟʟᴍᴇɴᴜ
+> ◈│▸ ${prefix}sᴇᴀʀᴄʜᴍᴇɴᴜ
+> ◈│▸ ${prefix}ᴅᴏᴡɴʟᴏᴀᴅᴍᴇɴᴜ
+> ◈│▸ ${prefix}ɢᴀᴍᴇᴍᴇɴᴜ
+> ◈│▸ ${prefix}ғᴜɴᴍᴇɴᴜ
+> ◈│▸ ${prefix}ᴀɪᴍᴇɴᴜ
+> ◈│▸ ${prefix}ɢʀᴏᴜᴘᴍᴇɴᴜ
+> ◈│▸ ${prefix}ᴏᴡɴᴇʀᴍᴇɴᴜ
+> ◈│▸ ${prefix}ᴄᴏɴᴠᴇʀᴛᴍᴇɴᴜ
+> ◈│▸ ${prefix}ʟɪsᴛᴍᴇɴᴜ
+> ◈│▸ ${prefix}ʀᴇʟɪɢɪᴏɴᴍᴇɴᴜ
+> ◈│▸ ${prefix}ᴀɴɪᴍᴇᴍᴇɴᴜ
+> ◈│▸ ${prefix}ʀᴀɴᴅᴏᴍᴘʜᴏᴛᴏᴍᴇɴᴜ
+> ◈│▸ ${prefix}ʀᴀɴᴅᴏᴍᴠɪᴅᴇᴏᴍᴇɴᴜ
+> ◈│▸ ${prefix}sᴛɪᴄᴋᴇʀᴍᴇɴᴜ
+> ◈│▸ ${prefix}ᴅᴀᴛᴀʙᴀsᴇᴍᴇɴᴜ
+> ◈│▸ ${prefix}sᴛᴏʀᴇᴍᴇɴᴜ
+> ◈│▸ ${prefix}*sᴛᴀʟᴋᴇʀᴍᴇɴᴜ
+> ◈│▸ ${prefix}ᴏᴛʜᴇʀᴍᴇɴᴜ
+━━━━━━━━━━━━━━━━━━━━━━━━━
+> © 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐉𝐔𝐈𝐂𝐄`
 if (typemenu === 'v1') {
   XliconBotInc.sendMessage(m.chat, {
       image: fs.readFileSync('./XliconMedia/theme/SPIDER.jpg'),
@@ -15210,100 +15209,100 @@ break
 case 'allmenu': {
 let xmenu_oh = `
 ╭─────═━┈┈━═──━┈⊷
-┋❍ *ʙᴏᴛ ɴᴀᴍᴇ* : ${botname}
+┋❍ *ʙᴏᴛ ɴᴀᴍᴇ* : *${botname}*
 ┋❍ *ᴏᴡɴᴇʀ ɴᴀᴍᴇ* : ${global.ownername} 
 ┋❍ *ᴜsᴇʀ* : ${m.pushName || 'No Name'}
 ┋❍ ${xliconytimewisher} 😄
 ╰─────═━┈┈━═──━┈⊷ ${readmore}
-  ❍ *ɢᴜɪᴅᴇ* ❍
+   『 *ɢᴜɪᴅᴇ* 』
 ╭─────═━┈┈━═──━┈⊷
 ┊ 🅞 = 👑 *ꜰᴏʀ ᴏᴡɴᴇʀ*
 ┊ 🅕 = 🌟 *ꜰᴏʀ ꜰʀᴇᴇ ᴜꜱᴇʀ*
 ┊ 🅟 = 💎 *ꜰᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀ*
 ╰─────═━┈┈━═──━┈⊷
-  ❍ *ᴏᴡɴᴇʀ* ❍
-╭━━━━∙⋆⋅⋆∙━ ─┉─ • ─┉─⊷
-┊☻︎ ${prefix}delsession 🅞
-┊☻︎ ${prefix}update-repo 🅞
-┊☻︎ ${prefix}addbadword 🅞
-┊☻︎ ${prefix}delbadword 🅞
-┊☻︎ ${prefix}autoread 🅞
-┊☻︎ ${prefix}autobio 🅞
-┊☻︎ ${prefix}autotype 🅞
-┊☻︎ ${prefix}unavailable 🅞
-┊☻︎ ${prefix}autorecord 🅞
-┊☻︎ ${prefix}autorecordtype 🅞
-┊☻︎ ${prefix}autoswview 🅞
-┊☻︎ ${prefix}setautoblock 🅞
-┊☻︎ ${prefix}setantiforeign 🅞
-┊☻︎ ${prefix}autoblock 🅞
-┊☻︎ ${prefix}onlygc 🅞
-┊☻︎ ${prefix}onlypc 🅞
-┊☻︎ ${prefix}onlyindia 🅞
-┊☻︎ ${prefix}onlyindo 🅞
-┊☻︎ ${prefix}anticall 🅞
-┊☻︎ ${prefix}self 🅞
-┊☻︎ ${prefix}public 🅞
-┊☻︎ ${prefix}join 🅞
-┊☻︎ ${prefix}poll 🅞
-┊☻︎ ${prefix}spam 🅞
-┊☻︎ ${prefix}bc 🅞
-┊☻︎ ${prefix}bcgroup 🅞
-┊☻︎ ${prefix}setmenu 🅞
-┊☻︎ ${prefix}setimgmenu 🅞
-┊☻︎ ${prefix}setvidmenu 🅞
-┊☻︎ ${prefix}setgifmenu 🅞
-┊☻︎ ${prefix}setreply 🅞
-┊☻︎ ${prefix}resethit 🅞
-┊☻︎ ${prefix}resetuser 🅞
-┊☻︎ ${prefix}creategc 🅞
-┊☻︎ ${prefix}setexif 🅞
-┊☻︎ ${prefix}getexif 🅞
-┊☻︎ ${prefix}getautoblocknumber 🅞
-┊☻︎ ${prefix}getantiforeignnumber 🅞
-┊☻︎ ${prefix}userjid 🅞
-┊☻︎ ${prefix}setbotbio 🅞
-┊☻︎ ${prefix}delppbot 🅞
-┊☻︎ ${prefix}shutdown 🅞
-┊☻︎ ${prefix}setppbot 🅞
-┊☻︎ ${prefix}addprem 🅞
-┊☻︎ ${prefix}delprem 🅞
-┊☻︎ ${prefix}addowner 🅞
-┊☻︎ ${prefix}delowner 🅞
-┊☻︎ ${prefix}addvn 🅞
-┊☻︎ ${prefix}addapk 🅞
-┊☻︎ ${prefix}addzip 🅞
-┊☻︎ ${prefix}addpdf 🅞
-┊☻︎ ${prefix}delapk 🅞
-┊☻︎ ${prefix}delzip 🅞
-┊☻︎ ${prefix}delpdf 🅞
-┊☻︎ ${prefix}delvn 🅞
-┊☻︎ ${prefix}addsticker 🅞
-┊☻︎ ${prefix}delsticker 🅞
-┊☻︎ ${prefix}addimage 🅞
-┊☻︎ ${prefix}delimage 🅞
-┊☻︎ ${prefix}addvideo 🅞
-┊☻︎ ${prefix}delvideo 🅞
-┊☻︎ ${prefix}upswtext 🅞
-┊☻︎ ${prefix}upswvideo 🅞
-┊☻︎ ${prefix}upswimage 🅞
-┊☻︎ ${prefix}upswaudio 🅞
-┊☻︎ ${prefix}autosticker 🅞
-┊☻︎ ${prefix}block 🅞
-┊☻︎ ${prefix}unblock 🅞
-┊☻︎ ${prefix}leavegc 🅞
-┊☻︎ ${prefix}pushcontact 🅞
-┊☻︎ ${prefix}pushcontactv2 🅞
-┊☻︎ ${prefix}pushcontactv3 🅞
-┊☻︎ ${prefix}jpm 🅞
-┊☻︎ ${prefix}checkmember 🅞
-┊☻︎ ${prefix}post 🅞
-┊☻︎ ${prefix}clearchat 🅞
-┊☻︎ ${prefix}setprefix 🅞
-┊☻︎ $ 🅞
-┊☻︎ > 🅞
-┊☻︎ < 🅞
-╰━━━━∙⋆⋅⋆∙━ ─┉─ • ─┉─⊷
+   『 *ᴏᴡɴᴇʀ* 』
+━━━━━━━━━━━━━━━━━━━━━━━━━
+> ◈│▸ ${prefix}delsession 🅞
+> ◈│▸ ${prefix}update-repo 🅞
+> ◈│▸ ${prefix}addbadword 🅞
+> ◈│▸ ${prefix}delbadword 🅞
+> ◈│▸ ${prefix}autoread 🅞
+> ◈│▸ ${prefix}autobio 🅞
+> ◈│▸ ${prefix}autotype 🅞
+> ◈│▸ ${prefix}unavailable 🅞
+> ◈│▸ ${prefix}autorecord 🅞
+> ◈│▸ ${prefix}autorecordtype 🅞
+> ◈│▸ ${prefix}autoswview 🅞
+> ◈│▸ ${prefix}setautoblock 🅞
+> ◈│▸ ${prefix}setantiforeign 🅞
+> ◈│▸ ${prefix}autoblock 🅞
+> ◈│▸ ${prefix}onlygc 🅞
+> ◈│▸ ${prefix}onlypc 🅞
+> ◈│▸ ${prefix}onlyindia 🅞
+> ◈│▸ ${prefix}onlyindo 🅞
+> ◈│▸ ${prefix}anticall 🅞
+> ◈│▸ ${prefix}self 🅞
+> ◈│▸ ${prefix}public 🅞
+> ◈│▸ ${prefix}join 🅞
+> ◈│▸ ${prefix}poll 🅞
+> ◈│▸ ${prefix}spam 🅞
+> ◈│▸ ${prefix}bc 🅞
+> ◈│▸ ${prefix}bcgroup 🅞
+> ◈│▸ ${prefix}setmenu 🅞
+> ◈│▸ ${prefix}setimgmenu 🅞
+> ◈│▸ ${prefix}setvidmenu 🅞
+> ◈│▸ ${prefix}setgifmenu 🅞
+> ◈│▸ ${prefix}setreply 🅞
+> ◈│▸ ${prefix}resethit 🅞
+> ◈│▸ ${prefix}resetuser 🅞
+> ◈│▸ ${prefix}creategc 🅞
+> ◈│▸ ${prefix}setexif 🅞
+> ◈│▸ ${prefix}getexif 🅞
+> ◈│▸ ${prefix}getautoblocknumber 🅞
+> ◈│▸ ${prefix}getantiforeignnumber 🅞
+> ◈│▸ ${prefix}userjid 🅞
+> ◈│▸ ${prefix}setbotbio 🅞
+> ◈│▸ ${prefix}delppbot 🅞
+> ◈│▸ ${prefix}shutdown 🅞
+> ◈│▸ ${prefix}setppbot 🅞
+> ◈│▸ ${prefix}addprem 🅞
+> ◈│▸ ${prefix}delprem 🅞
+> ◈│▸ ${prefix}addowner 🅞
+> ◈│▸ ${prefix}delowner 🅞
+> ◈│▸ ${prefix}addvn 🅞
+> ◈│▸ ${prefix}addapk 🅞
+> ◈│▸ ${prefix}addzip 🅞
+> ◈│▸ ${prefix}addpdf 🅞
+> ◈│▸ ${prefix}delapk 🅞
+> ◈│▸ ${prefix}delzip 🅞
+> ◈│▸ ${prefix}delpdf 🅞
+> ◈│▸ ${prefix}delvn 🅞
+> ◈│▸ ${prefix}addsticker 🅞
+> ◈│▸ ${prefix}delsticker 🅞
+> ◈│▸ ${prefix}addimage 🅞
+> ◈│▸ ${prefix}delimage 🅞
+> ◈│▸ ${prefix}addvideo 🅞
+> ◈│▸ ${prefix}delvideo 🅞
+> ◈│▸ ${prefix}upswtext 🅞
+> ◈│▸ ${prefix}upswvideo 🅞
+> ◈│▸ ${prefix}upswimage 🅞
+> ◈│▸ ${prefix}upswaudio 🅞
+> ◈│▸ ${prefix}autosticker 🅞
+> ◈│▸ ${prefix}block 🅞
+> ◈│▸ ${prefix}unblock 🅞
+> ◈│▸ ${prefix}leavegc 🅞
+> ◈│▸ ${prefix}pushcontact 🅞
+> ◈│▸ ${prefix}pushcontactv2 🅞
+> ◈│▸ ${prefix}pushcontactv3 🅞
+> ◈│▸ ${prefix}jpm 🅞
+> ◈│▸ ${prefix}checkmember 🅞
+> ◈│▸ ${prefix}post 🅞
+> ◈│▸ ${prefix}clearchat 🅞
+> ◈│▸ ${prefix}setprefix 🅞
+> ◈│▸ 🅞
+> ◈│▸ 🅞
+> ◈│▸ 🅞
+━━━━━━━━━━━━━━━━━━━━━━━━━
   ❍ *👥 ɢʀᴏᴜᴘ* ❍
 ╭━━━━∙⋆⋅⋆∙━ ─┉─ • ─┉─⊷
 ┋❖ ${prefix}antibot 🅖
