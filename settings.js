@@ -78,7 +78,7 @@ global.creator = process.env.CREATOR_NUMBER || "12392714075@s.whatsapp.net";
 
 
 //~~~~~~~~~~~~~<Bot Settings>~~~~~~~~~~~~~~~\\
-global.xprefix = process.env.PREFIX || '.';
+global.xprefix = process.env.XPREFIX || '.';
 
 global.premium = [process.env.PREMIUM_NUMBER || '12392714075'];
 
@@ -90,7 +90,7 @@ global.autoblocknumber = process.env.AUTOBLOCK_COUNTRYCODE || '212';
 
 global.antiforeignnumber = process.env.ANTIFOREIGN_COUNTRYCODE || '91';
 
-global.antidelete = process.env.ANTI_DELETE === 'true';
+global.antidelete = process.env.ANTI_DELETE || 'true';
 
 
 
